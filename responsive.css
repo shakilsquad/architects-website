@@ -37,5 +37,14 @@
         font-size: 11px;
         padding: 10px;
     }
- 
+    
+    .main-banner{
+        width: 1250px;
+        height: 610px;
+        margin: 50px auto;
+    
+    }
+    .banner-image{
+        max-width: 100%;
+    }
 }
