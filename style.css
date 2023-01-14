@@ -5,6 +5,22 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
 
+.btn {
+    background-color: #FF900E;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px;
+    color: #ffff;
+    border: none;
+    border-radius: 8px;
+    transition: 0.5s;
+}
+.btn:hover{
+    background-color: antiquewhite;
+    color: #424242;
+    /* border: 2px solid rgba(255, 0, 0, 0.528); */
+    box-shadow: 3px 3px #424242;
+}
 /* =============================================================header-menu */
 .main-header{
     background-color: #FF900E1A;
@@ -26,7 +42,6 @@
     flex-wrap: nowrap;
     align-items: center;
 }
-
 .nev-section{
     display: flex;
     align-items: center;
@@ -35,7 +50,6 @@ ul{
     display: flex;
     align-items: center;
      gap: 34px;
-    
 }
 .li{
     display: none;
@@ -47,5 +61,27 @@ li {
     text-align: center;
     list-style: none;
     color: #424242;
+    font-family: 'Work Sans', sans-serif;
+}
+/* ===========================================================header-title */
+.header-section{
+    margin: 70px auto;
+    align-items: center;
+    text-align: center;
+    width: 900px;
+}
+
+.header-title{
+    align-items: center;
+    font-size: 64px;
+    font-weight: 700;
+    font-family: 'Work Sans', sans-serif;
+}
+.sub-title{
+    margin-top: 15px ;
+    margin-bottom: 32px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
     font-family: 'Work Sans', sans-serif;
 }

@@ -19,4 +19,23 @@
     .li{
         display: block;
     }
+/* =================================header-section======================= */
+    .header-section{
+        margin: 30px auto;
+        width: 300px;
+    }
+    .header-title{
+        align-items: center;
+        font-size: 15px;    
+    }
+    .sub-title{
+        margin-top: 15px ;
+        margin-bottom: 10px;
+        font-size: 10px;
+    }
+    .btn {
+        font-size: 11px;
+        padding: 10px;
+    }
+ 
 }
