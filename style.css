@@ -18,7 +18,6 @@
 .btn:hover{
     background-color: antiquewhite;
     color: #424242;
-    /* border: 2px solid rgba(255, 0, 0, 0.528); */
     box-shadow: 3px 3px #424242;
 }
 /* =============================================================header-menu */
@@ -93,13 +92,53 @@ li {
 }
 .banner-image{
     max-width: 100%;
+    transition: 1;
 }
-
-
-
-
-.box{
-    height: 500px;
+/* .banner-image:hover{
+    transform: scale(.9);    
+} */
+/* =====================================second-box========================== */
+.second-box{
+    width: 1250px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 60px;
+    gap: 70px;
+}
+.image-box{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 24px;
+    row-gap: 24px;
+}
+.imgs{
     width: 300px;
-    background-color: #FF900E;
+    height: 300px;
+}
+/* ======================================================= */
+.image-title-box{
+    margin-top: 160px;
+}
+.title-box-title{
+    font-size: 45px;
+    margin-bottom: 45px;
+    color: #727272;
+    font-weight: 500;
+}
+.title-box-descriptom{
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
+    font-family: 'Work Sans', sans-serif;
+    margin-bottom: 32px;
+}
+.one-span{
+    color: #131313;
+    font-weight: 800;
+    font-family: 'Work Sans', sans-serif;
+}
+.two-span{
+    color: #FF900E;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 800;
 }
