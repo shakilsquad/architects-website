@@ -86,13 +86,12 @@ li {
 }
 .main-banner{
     width: 1250px;
-    height: 610px;
+    /* height: 610px; */
     margin: 50px auto;
 
 }
 .banner-image{
     max-width: 100%;
-    transition: 1;
 }
 /* .banner-image:hover{
     transform: scale(.9);    

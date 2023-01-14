@@ -45,4 +45,38 @@
     .banner-image{
         border-radius: 10px;
     }
+    /* ===========================================second box================ */
+    .second-box{
+        display: block;
+        margin-top: 10px;
+        gap: 5px;
+        margin-left: 55px;
+    }
+    
+    .image-box{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .imgs{
+        width: 280px;
+        height: 280px;
+    }
+    .image-title-box{
+        margin-top: 40px;
+    }
+    .title-box-title{
+        font-size: 25px;
+        margin-bottom: 15px;
+        margin-left: 45px;
+    }
+    .title-box-descriptom{
+        font-size: 15px;
+        margin-bottom: 10px;
+        width: 260px;
+        text-align: center;
+    }
+    .btn{
+        text-align: center;
+    }
+    
 }
