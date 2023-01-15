@@ -157,6 +157,7 @@ li {
 }
 .right-banner{
     width: 590px;
+    height: 701px;
 }
 .right-banner-title{
     font-size: 45px;
@@ -193,12 +194,16 @@ li {
 .sub-div-one {
     background-color: rgb(255, 255, 255);
     padding: 20px;
-    box-shadow: 29px 11px 92px -55px;
+    /* box-shadow: 29px 11px 92px -55px; */
+    box-shadow: -29px 21px 43px -39px;
+
     margin-bottom: 12px;
 }
  .left-banner{
-    width: 800px;
-    height: 1000px;
+    width: 612px;
+    height: 702px;
+    /* width: 800px;
+    height: 1000px; */
 } 
  .banner-images{
     width: 100%;
@@ -396,3 +401,30 @@ input{
 
 
 }
+
+/* ======================================= */
+.boll {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+  }
+  .boll:after {
+    content: " ";
+    display: block;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border-radius: 50%;
+    border: 6px solid rgb(243, 14, 14);
+    border-color: rgb(7, 218, 225) transparent rgb(3, 230, 113) transparent;
+    animation: boll 1.2s linear infinite;
+  }
+  @keyframes boll {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  

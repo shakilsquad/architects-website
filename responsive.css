@@ -118,18 +118,7 @@
         width: 60%;
     }
 
-
-     .left-banner{
-        height: 40px;
-        width: 450px;
-        margin-left: 20px;
-
-    }
-    .banner-images{
-        max-width: 80%;
-
-    } 
-    .left-banner{
+    .left-b anner{
         width: 700px;
         height: 100px;
         margin-left: -10px;
@@ -137,10 +126,9 @@
      .banner-images{
         width: 100%;
         height: 300px;
-        max-width: 80;
+        max-width: 80%;
         object-fit: contain;
-        /* object-fit: cove0r; */
-        object-position:center;
+        margin-left: -50px;
     } 
 /* hover div */
     .small-div {
@@ -258,5 +246,13 @@
         margin-left: -200px; 
     }
     
+    /* ======================annimation  */
+    .boll {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        margin-left: -80px;
+        margin-top: 110px;
+      }
 
 }
