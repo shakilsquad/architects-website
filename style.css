@@ -299,3 +299,37 @@ Some-Facts-section */
 }
 
 /* ==============.icon-box-finish========================== */
+
+/* ====================Our Sponspors============= */
+.our-sponspors{
+    width: 1250px;
+    margin: 0 auto;
+    text-align: center;
+}
+.sponsor-title{
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 24px;
+    font-family: 'Work Sans', sans-serif;
+
+
+}
+.sponsor-descripton {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0 auto;
+    margin: 10 auto;
+    width: 500px;
+    color: #727272;
+    
+}
+.sponser-image{
+    
+    display: flex;
+    justify-content: center;
+    gap: 125px;
+    align-content: center;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
