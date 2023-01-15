@@ -142,6 +142,22 @@
         /* object-fit: cove0r; */
         object-position:center;
     } 
-
-    
+/* hover div */
+    .small-div {
+        margin-top: 90px;
+        padding: 10px;
+        margin-left: 150px;
+    }
+    .small-div:hover{
+        background-color: rgb(164, 123, 123);
+        color: #FF900E;
+        padding: 12px;
+        border: none;
+    }
+    .small-div-title{
+        font-size: 15px;
+    }
+    .small-div-des{
+        font-size: 5px;
+    }
 }
