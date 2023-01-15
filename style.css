@@ -333,3 +333,6 @@ Some-Facts-section */
     margin-top: 50px;
     margin-bottom: 60px;
 }
+.black-images{
+    filter: grayscale(100%);
+}
