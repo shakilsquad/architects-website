@@ -160,4 +160,25 @@
     .small-div-des{
         font-size: 5px;
     }
+
+    /* ======================================
+    Some Facts
+    ========================= */
+    .some-facts-section{
+        width: 350px;
+        margin: 0 auto;
+        margin-top: 160px;
+    }
+    
+    .some-facts-title{
+        font-size: 25px;
+        font-weight: 700;
+    }
+    .some-facts-sub{
+        margin-top: 14px;
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 90px;
+    
+    }
 }
