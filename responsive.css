@@ -216,6 +216,37 @@
         border-radius: 5px;
         margin-left: 40px;
     }
+    /* ====================================bonas point ========================= */
+    .bonas-point{
+        width: 350px;
+       }
+       .form-title{
+           font-size: 25px;
+           padding-top: 20px;
+       }
+       .from {
+           padding: 5px;
+       }
+       .label{
+           font-size: 20px; 
+       }
+       .fieldset-tag {
+           text-align: left;
+           width: 316px;
+           margin: 0 auto;
+       }
+       .legend{
+           font-size: 20px;
+       }
+       .point{
+           font-size: 17px;
+       }
+       .text-box{
+           width: 310px;
+       }
+
+       /* last footer section */
+       
     
 
 }

@@ -292,7 +292,6 @@ Some-Facts-section */
 }
 .icon-box:hover{
     transform: rotate3d(20deg);
-    border: 3px solid rgb(231, 14, 14);
     background-color: #727272;
     color: rgb(101, 124, 145);
     text-transform: capitalize;
@@ -353,6 +352,7 @@ Some-Facts-section */
     text-align: center;
     padding: 50px;
     background: antiquewhite;
+    border-radius: 10px;
 }
 .label{
     font-size: 20px;
@@ -374,3 +374,8 @@ input{
 .point{
     font-size: 17px;
 }
+.text-box{
+    width: 310px;
+}
+
+/* ==========================last section====================== */
