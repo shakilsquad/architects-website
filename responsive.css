@@ -76,7 +76,58 @@
         text-align: center;
     }
     .btn{
-        text-align: center;
-    }
-    
+            text-align: center;
+        }
+
+        /* ===============================third banner site======================== */
+
+        .third-bannner-site{
+            width: 1250px;
+            margin-top: 100px;
+            display: flex; 
+            flex-direction: column;
+            margin-top: 10px;
+        }
+     .right-banner-title{
+        font-size: 22px; 
+        margin-left: 10px;
+        margin-top: 30px;
+        border-left: 5px solid #FF900E;
+        padding-left: 10px;
+        margin-bottom: 14px;
+    } 
+     .right-banner-subtitile{
+        font-size: 10px;
+        width: 300px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    } 
+     .sub-div-one {
+        background-color: rgb(255, 255, 255);
+        padding: 20px;
+        margin-bottom: 10px;
+        background-color: rgba(173, 188, 188, 0.183);
+        width:100%;
+    } 
+     .sub-div-title{
+        font-size: 15px;
+        margin-bottom: 5px;
+    } 
+     .sub-div-dscp{
+        font-size: 10px;
+        width: 60%;
+    } 
+
+     /* .left-banner{
+        width: 100px;
+        height: 1000px;
+    } 
+     .banner-images{
+        width: 10%;
+        height: 700px;
+        object-fit: cover;
+    }  */
+    /* .right-banner{
+        width: 190px;
+    } */
 }
