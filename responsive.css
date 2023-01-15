@@ -188,6 +188,34 @@
         margin-bottom: 50px;
     }
     /* =========================icon srction====================== */
+    /* ====================sponser section========================== */
+    .our-sponspors{
+        width: 250px;
+        
+        text-align: center;
+    }
+    .sponsor-title{
+        font-size: 30px;
+    }
+    .sponsor-descripton {
+        font-size: 16px;
+        width: 300px;
+        margin-left: -30px;  
+    }
+    .sponser-image{
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .sponser-image img{
+        width: 160px ;
+        padding: 10px;
+        border: 2px solid gray;
+        border-radius: 5px;
+        margin-left: 40px;
+    }
     
 
 }
