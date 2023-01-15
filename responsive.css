@@ -246,7 +246,17 @@
        }
 
        /* last footer section */
-       
+
+       .main-footetr{
+        width: 576px;
+        margin-bottom: 100px;
+        text-align: center;
+    
+    }
+    .footer-title{
+        font-size: 11px;   
+        margin-left: -200px; 
+    }
     
 
 }

@@ -379,3 +379,20 @@ input{
 }
 
 /* ==========================last section====================== */
+.main-footetr{
+    width: 1250px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    background-color: #FFF4E7;
+    padding: 50px 0;
+    text-align: center;
+
+}
+.footer-title{
+    font-size: 20px;
+    font-weight: 400;
+    color: #424242;
+    font-family: 'Work Sans', sans-serif;
+
+
+}
