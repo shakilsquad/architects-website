@@ -178,7 +178,16 @@
         margin-top: 14px;
         font-size: 14px;
         line-height: 20px;
-        margin-bottom: 90px;
+        margin-bottom: 50px;
     
     }
+    /* =========================icon srction====================== */
+    .icone-section {
+        gap: 15px;
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+    /* =========================icon srction====================== */
+    
+
 }

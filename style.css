@@ -272,12 +272,13 @@ Some-Facts-section */
     padding: 30px;
     text-align: center;
     border-radius: 5px;
+    transition: .9s;
 }
 .icon-box-title{
     font-size: 40px;
     font-weight: 600;
     font-family: 'Work Sans', sans-serif;
-    color: #424242;
+    color: #3d3a3a;
     margin: 2px auto;
 
 
@@ -289,3 +290,12 @@ Some-Facts-section */
     color: #727272;
 
 }
+.icon-box:hover{
+    transform: rotate3d(20deg);
+    border: 3px solid rgb(231, 14, 14);
+    background-color: #727272;
+    color: rgb(101, 124, 145);
+    text-transform: capitalize;
+}
+
+/* ==============.icon-box-finish========================== */
