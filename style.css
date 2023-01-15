@@ -336,3 +336,41 @@ Some-Facts-section */
 .black-images{
     filter: grayscale(100%);
 }
+/* -=================================================bonas point=========================== */
+.bonas-point{
+ width: 1250px;
+ margin: 0 auto;
+}
+.form-title{
+    font-size: 45px;
+    font-weight: 600;
+    color: #727272;
+    font-family: 'Work Sans', sans-serif;
+
+
+}
+.from {
+    text-align: center;
+    padding: 50px;
+    background: antiquewhite;
+}
+.label{
+    font-size: 20px;
+}
+.fieldset-tag {
+    text-align: left;
+    width: 324px;
+    margin: 0 auto;
+}
+input{
+    margin-top: 20px;
+    font-size: 16px;
+    padding: 10px 12px;
+    border: 2px solid grey;
+}
+.legend{
+    font-size: 20px;
+}
+.point{
+    font-size: 17px;
+}
