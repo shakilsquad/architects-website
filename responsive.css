@@ -56,10 +56,11 @@
     .image-box{
         display: grid;
         grid-template-columns: repeat(1,1fr);
+        margin-left: -40px;
     }
     .imgs{
-        width: 280px;
-        height: 280px;
+        width: 360px;
+        height: 330px;
     }
     .image-title-box{
         margin-top: 40px;
@@ -67,7 +68,7 @@
     .title-box-title{
         font-size: 25px;
         margin-bottom: 15px;
-        margin-left: 45px;
+        margin-left: 65px;
     }
     .title-box-descriptom{
         font-size: 15px;
@@ -76,11 +77,17 @@
         text-align: center;
     }
     .btn{
-            text-align: center;
+                margin-left: 65px;
+                padding: 10px;
+                font-size: 16px;
+
         }
 
         /* ===============================third banner site======================== */
-
+        .right-banner{
+            width: 330px;
+            padding-left: 8px;
+        }    
         .third-bannner-site{
             width: 1250px;
             margin-top: 100px;
@@ -124,15 +131,14 @@
         margin-left: -10px;
     } 
      .banner-images{
-        width: 100%;
-        height: 300px;
+        height: 500px;
         max-width: 80%;
         object-fit: contain;
         margin-left: -50px;
     } 
 /* hover div */
     .small-div {
-        margin-top: 90px;
+        margin-top: 300px;
         padding: 10px;
         margin-left: 150px;
     }
@@ -153,9 +159,8 @@
     Some Facts
     ========================= */
     .some-facts-section{
+        margin-top: 450px;
         width: 350px;
-        margin: 0 auto;
-        margin-top: 160px;
     }
     
     .some-facts-title{
@@ -198,11 +203,10 @@
         margin-top: 30px;
     }
     .sponser-image img{
-        width: 160px ;
+        width: 230px ;
         padding: 10px;
         border: 2px solid gray;
         border-radius: 5px;
-        margin-left: 40px;
     }
     /* ====================================bonas point ========================= */
     .bonas-point{
@@ -236,23 +240,20 @@
        /* last footer section */
 
        .main-footetr{
-        width: 576px;
-        margin-bottom: 100px;
-        text-align: center;
+        width: 350px;
+        margin-bottom: 50px;        
     
     }
     .footer-title{
-        font-size: 11px;   
-        margin-left: -200px; 
+        font-size: 18px;   
+        text-align: center;
+        padding: 0 6px;
     }
     
     /* ======================annimation  */
     .boll {
-        display: inline-block;
         width: 20px;
-        height: 20px;
         margin-left: -80px;
-        margin-top: 110px;
       }
 
 }
